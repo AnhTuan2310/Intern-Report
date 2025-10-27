@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thao tác cơ bản</title>
+  </head>
+  <body></body>
+  <script>
+    //Cũ:
+    var binhPhuong = function(x){
+                return x*x;
+            }
+    //Mới: const binhPhuong = (x) =>{
+                return x*x;
+            }
+            Đặc biệt nếu chỉ có 1 tham số và cần 1 retrun thì có thể viết:
+            const binhPhuong = x => x*x;
+        Lexical: ví dụ
+            // ES5 (Phải dùng 'self' vì 'this' trong setTimeout là 'window')
+            function DongHo() {
+            this.giay = 0;
+            var self = this;
+            setInterval(function() {
+                self.giay++;
+                console.log(self.giay);
+            }, 1000);
+            }
+            // ES6 (Arrow function 'vay mượn' 'this' của DongHoES6)
+            function DongHoES6() {
+            this.giay = 0;
+            setInterval(() => {
+                this.giay++;
+                console.log(this.giay);
+            }, 1000);
+            }
+    // Ví dụ về destructuring object==>
+    const user = {
+      id: 1,
+      ten: "An",
+      tuoi: 30,
+      congViec: "Lập trình viên",
+    };
+    // Lấy 'ten' và 'tuoi' từ 'user'
+    const { ten, tuoi } = user;
+    console.log(ten); // "An"
+    console.log(tuoi); // 30
+
+    // Đổi tên biến và lấy phần còn lại (rest syntax)
+    const { id, ten: hoTen, ...phanConLai } = user;
+    console.log(id); // 1
+    console.log(hoTen); // "An"
+    console.log(phanConLai); // { tuoi: 30, congViec: "Lập trình viên" }
+    //<== Kết thúc ví dụ về Destructuring obj
+    // Ví dụ về destructuring array==>
+    const mauSac = ["Đỏ", "Vàng", "Xanh"];
+
+    // Lấy theo thứ tự
+    const [mauThuNhat, mauThuHai] = mauSac;
+    console.log(mauThuNhat); // "Đỏ"
+    console.log(mauThuHai); // "Vàng"
+
+    // Bỏ qua phần tử (dùng dấu phẩy trống)
+    const [, , mauCuoi] = mauSac;
+    console.log(mauCuoi); // "Xanh"
+    //<== Kết thúc ví dụ về Destructuring array
+    //Ví dụ về Export và Import==>
+    export const PI = 3.14;
+    //Thì lúc import phải dùng import { PI } from './tenfile.js';
+    //Còn nếu mà export default:
+    export default function binhPhuong(x) {
+      return x * x;
+    }
+    //Thì lúc import dùng import binhPhuong from './tenfile.js' chứ kh cần dấu {}
+    //<== Kết thúc ví dụ về Export và Import
+  </script>
+</html>
