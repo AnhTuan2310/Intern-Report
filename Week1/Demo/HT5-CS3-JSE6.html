@@ -8,32 +8,33 @@
   <body></body>
   <script>
     //Cũ:
-    var binhPhuong = function(x){
-                return x*x;
-            }
-    //Mới: const binhPhuong = (x) =>{
-                return x*x;
-            }
-            Đặc biệt nếu chỉ có 1 tham số và cần 1 retrun thì có thể viết:
-            const binhPhuong = x => x*x;
-        Lexical: ví dụ
-            // ES5 (Phải dùng 'self' vì 'this' trong setTimeout là 'window')
-            function DongHo() {
-            this.giay = 0;
-            var self = this;
-            setInterval(function() {
-                self.giay++;
-                console.log(self.giay);
-            }, 1000);
-            }
-            // ES6 (Arrow function 'vay mượn' 'this' của DongHoES6)
-            function DongHoES6() {
-            this.giay = 0;
-            setInterval(() => {
-                this.giay++;
-                console.log(this.giay);
-            }, 1000);
-            }
+    var binhPhuong = function (x) {
+      return x * x;
+    };
+    //Mới:
+    const binhPhuong = (x) => {
+      return x * x;
+    };
+    //Đặc biệt nếu chỉ có 1 tham số và cần 1 retrun thì có thể viết:
+    const binhPhuong = (x) => x * x;
+    //Lexical: ví dụ
+    // ES5 (Phải dùng 'self' vì 'this' trong setTimeout là 'window')
+    function DongHo() {
+      this.giay = 0;
+      var self = this;
+      setInterval(function () {
+        self.giay++;
+        console.log(self.giay);
+      }, 1000);
+    }
+    // ES6 (Arrow function 'vay mượn' 'this' của DongHoES6)
+    function DongHoES6() {
+      this.giay = 0;
+      setInterval(() => {
+        this.giay++;
+        console.log(this.giay);
+      }, 1000);
+    }
     // Ví dụ về destructuring object==>
     const user = {
       id: 1,
