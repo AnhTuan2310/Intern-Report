@@ -1,0 +1,14 @@
+D:\STUDY\Learn .NET\Project\QuanLySanPham\bin\Debug\net8.0\QuanLySanPham.exe
+D:\STUDY\Learn .NET\Project\QuanLySanPham\bin\Debug\net8.0\QuanLySanPham.deps.json
+D:\STUDY\Learn .NET\Project\QuanLySanPham\bin\Debug\net8.0\QuanLySanPham.runtimeconfig.json
+D:\STUDY\Learn .NET\Project\QuanLySanPham\bin\Debug\net8.0\QuanLySanPham.dll
+D:\STUDY\Learn .NET\Project\QuanLySanPham\bin\Debug\net8.0\QuanLySanPham.pdb
+D:\STUDY\Learn .NET\Project\QuanLySanPham\obj\Debug\net8.0\QuanLySanPham.GeneratedMSBuildEditorConfig.editorconfig
+D:\STUDY\Learn .NET\Project\QuanLySanPham\obj\Debug\net8.0\QuanLySanPham.AssemblyInfoInputs.cache
+D:\STUDY\Learn .NET\Project\QuanLySanPham\obj\Debug\net8.0\QuanLySanPham.AssemblyInfo.cs
+D:\STUDY\Learn .NET\Project\QuanLySanPham\obj\Debug\net8.0\QuanLySanPham.csproj.CoreCompileInputs.cache
+D:\STUDY\Learn .NET\Project\QuanLySanPham\obj\Debug\net8.0\QuanLySanPham.dll
+D:\STUDY\Learn .NET\Project\QuanLySanPham\obj\Debug\net8.0\refint\QuanLySanPham.dll
+D:\STUDY\Learn .NET\Project\QuanLySanPham\obj\Debug\net8.0\QuanLySanPham.pdb
+D:\STUDY\Learn .NET\Project\QuanLySanPham\obj\Debug\net8.0\QuanLySanPham.genruntimeconfig.cache
+D:\STUDY\Learn .NET\Project\QuanLySanPham\obj\Debug\net8.0\ref\QuanLySanPham.dll
