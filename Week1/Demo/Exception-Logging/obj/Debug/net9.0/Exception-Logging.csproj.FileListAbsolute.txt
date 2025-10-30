@@ -1,0 +1,14 @@
+D:\STUDY\Learn .NET\Project\Exception-Logging\bin\Debug\net9.0\Exception-Logging.exe
+D:\STUDY\Learn .NET\Project\Exception-Logging\bin\Debug\net9.0\Exception-Logging.deps.json
+D:\STUDY\Learn .NET\Project\Exception-Logging\bin\Debug\net9.0\Exception-Logging.runtimeconfig.json
+D:\STUDY\Learn .NET\Project\Exception-Logging\bin\Debug\net9.0\Exception-Logging.dll
+D:\STUDY\Learn .NET\Project\Exception-Logging\bin\Debug\net9.0\Exception-Logging.pdb
+D:\STUDY\Learn .NET\Project\Exception-Logging\obj\Debug\net9.0\Exception-Logging.GeneratedMSBuildEditorConfig.editorconfig
+D:\STUDY\Learn .NET\Project\Exception-Logging\obj\Debug\net9.0\Exception-Logging.AssemblyInfoInputs.cache
+D:\STUDY\Learn .NET\Project\Exception-Logging\obj\Debug\net9.0\Exception-Logging.AssemblyInfo.cs
+D:\STUDY\Learn .NET\Project\Exception-Logging\obj\Debug\net9.0\Exception-Logging.csproj.CoreCompileInputs.cache
+D:\STUDY\Learn .NET\Project\Exception-Logging\obj\Debug\net9.0\Exception-Logging.dll
+D:\STUDY\Learn .NET\Project\Exception-Logging\obj\Debug\net9.0\refint\Exception-Logging.dll
+D:\STUDY\Learn .NET\Project\Exception-Logging\obj\Debug\net9.0\Exception-Logging.pdb
+D:\STUDY\Learn .NET\Project\Exception-Logging\obj\Debug\net9.0\Exception-Logging.genruntimeconfig.cache
+D:\STUDY\Learn .NET\Project\Exception-Logging\obj\Debug\net9.0\ref\Exception-Logging.dll

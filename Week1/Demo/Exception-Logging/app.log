@@ -1,0 +1,13 @@
+29-10-2025 16:16:38 - [START] Ứng dụng bắt đầu chạy.
+29-10-2025 16:16:42 - [ERROR] Nhập sai định dạng: The input string 'abc' was not in a correct format.
+29-10-2025 16:16:42 - [END] Ứng dụng kết thúc.
+29-10-2025 16:17:22 - [START] Ứng dụng bắt đầu chạy.
+29-10-2025 16:17:26 - [INPUT]: 123
+29-10-2025 16:17:30 - [INPUT]: 0
+29-10-2025 16:17:30 - [ERROR] Lỗi chia cho 0: Không thể chia cho 0!
+29-10-2025 16:17:30 - [END] Ứng dụng kết thúc.
+29-10-2025 16:17:59 - [START] Ứng dụng bắt đầu chạy.
+29-10-2025 16:18:13 - [INPUT]: 234
+29-10-2025 16:18:17 - [INPUT]: 567
+29-10-2025 16:18:17 - [OUTPUT]Chia thành công: 234 / 567 = 0,41269842
+29-10-2025 16:18:17 - [END] Ứng dụng kết thúc.
