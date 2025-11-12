@@ -1,0 +1,84 @@
+/* Thiết lập cho toàn bộ ứng dụng */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #6d8281;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+/* Khung chứa của app */
+.todo-app {
+  width: auto;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+/* Phần form thêm việc */
+.todo-form {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.todo-form input {
+  flex-grow: 1; /* Cho input chiếm hết phần thừa */
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.todo-form button {
+  padding: 10px 15px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.todo-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Phần danh sách */
+.todo-list {
+  list-style: none; /* Bỏ dấu chấm đầu dòng */
+  padding: 0;
+}
+
+.todo-list li {
+  display: flex;
+  justify-content: space-between; /* Đẩy chữ và nút ra 2 bên */
+  align-items: center;
+  padding: 10px;
+  color: #313131;
+  border-bottom: 1px solid #eee;
+  background: #dbdbdb;
+}
+
+.todo-list li:last-child {
+  border-bottom: none; /* Dòng cuối cùng không có gạch */
+}
+
+/* Nút xóa */
+.todo-list button {
+  border: none;
+  background-color: #dc3545;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.todo-list button:hover {
+  background-color: #c82333;
+}
+
